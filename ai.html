@@ -227,21 +227,21 @@
 </head>
 <body>
   <header>
-    <h1>TDT AI</h1>
+    <h1>LunarAI</h1>
   </header>
 
   <div id="chat">
     <div class="msg-container bot" style="opacity: 1; transform: none;">
       <img src="ChatGPT-Image-14_29_41-9-thg-9_-2025.png" class="pfp" alt="AI Logo">
       <div class="msg">
-       Chào, tôi là TDT AI, tôi có thể giúp bạn bất kì thứ gì
+       Hi, Im Lunar AI, U can ask me anything about Lua
       </div>
     </div>
   </div>
 
   <div id="inputArea">
     <input id="userInput" type="text" placeholder="Ask for script..." autocomplete="off">
-    <button id="sendBtn">Gửi</button>
+    <button id="sendBtn">Send</button>
   </div>
 
 <script>
@@ -256,7 +256,7 @@
     const GEMINI_API_KEY = "AIzaSyAXx__lR1tpbTJdLou1Pdv4_CETyzGvayw"; 
 
     // vẫn giữ system prompt
-    const SYSTEM_PROMPT = `Bạn là 1 trùm lua code, trả lời hài hước . Nếu liên quan đến code, bọc cái \`\`\` vào khối code lua và giữ cấu bình thường ở ngoài`;
+    const SYSTEM_PROMPT = `You are a lua code master, funny answer. If related to code, wrap the \`\`\` into lua code block and keep normal configuration outside`;
 
     let isProcessing = false;
 
